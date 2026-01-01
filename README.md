@@ -44,6 +44,7 @@ Face-Detection-Recognition/
 │   │   └── img2.jpg
 
 │   ├── person2/
+
 │
 ├── models/
 
@@ -58,3 +59,62 @@ Face-Detection-Recognition/
 ├── requirements.txt
 
 └── README.md
+
+⚙️ Features
+
+✔ Face detection using OpenCV
+
+✔ Face recognition using facial embeddings
+
+✔ Multiple face handling
+
+✔ Real-time webcam recognition
+
+✔ Bounding boxes with name labels
+
+✔ Easy registration of new users
+
+🧠 Working Principle
+
+Face Detection
+
+Detect faces using Haar Cascade or DNN-based models.
+
+Face Encoding
+
+Extract unique facial features (embeddings).
+
+Face Recognition
+
+Compare detected faces with known embeddings.
+
+Labeling
+
+Display name and bounding box on video frames.
+
+User Registration
+
+Capture images and add new faces to the dataset.
+
+📸 Output
+
+Detects faces in real time
+
+Shows bounding boxes
+
+Displays recognized person’s name
+
+Marks unknown faces as Unknown
+
+🔮 Future Enhancements
+
+Mask detection integration
+
+Emotion recognition
+
+Cloud database for face storage
+
+Mobile app integration
+
+Accuracy improvement using deep learning models
+
